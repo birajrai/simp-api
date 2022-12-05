@@ -18,5 +18,13 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "keywords": []
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birajrai/simp-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/birajrai/simp-api/issues"
+  },
+  "homepage": "https://github.com/birajrai/simp-api#readme"
 }
