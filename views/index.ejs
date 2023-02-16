@@ -1,15 +1,17 @@
 <html>
     <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="Keywords" content="Pick Up Lines,API,Pick Up Lines API,Pick Up" />
+        <meta
+            name="Description"
+            content="This is the best pick up line API that exists on the market right now. It's also free to use!"
+        />
 
-        <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="Keywords" content="Pick Up Lines,API,Pick Up Lines API,Pick Up">
-        <meta name="Description" content="This is the best pick up line API that exists on the market right now. It's also free to use!">
-      
-        <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css" />
 
         <title>SIMP API</title>
 
@@ -30,7 +32,7 @@
             .container {
                 padding: 10px 20px;
             }
-            
+
             footer {
                 position: fixed;
                 bottom: 0px;
@@ -105,8 +107,8 @@
                 transition: transform .25s ease-out;
             }
 
-            .link:hover { 
-                color: #fff; 
+            .link:hover {
+                color: #fff;
             }
 
             .link:hover::before {
@@ -135,44 +137,59 @@
     <body>
         <div class="container">
             <h1 style="margin-bottom: 0;">Welcome to the</h1>
-            <h1 class="large" style="margin-top: 0;" id="showHome">SIMP API <img id="gif" src="https://media.giphy.com/media/xT1R9JrgVFXMizvGww/giphy.gif"></h1>
+            <h1 class="large" style="margin-top: 0;" id="showHome">
+                SIMP API <img id="gif" src="https://media.giphy.com/media/xT1R9JrgVFXMizvGww/giphy.gif" />
+            </h1>
 
-            <button id="showDocs" >Documentation</button>
+            <button id="showDocs">Documentation</button>
             <button id="showUsage">Usage</button>
             <a href="https://github.com/birajrai/simp-api"><button id="showGit">Github</button></a>
             <button id="showDonate">Donate</button>
             <button id="showRandom">Random</button>
 
-            <br><br>
-            <hr>
-            <br>
+            <br /><br />
+            <hr />
+            <br />
 
             <div id="home">
-
                 <p class="large">The best pick up line API out there</p>
-                <p class="medium-sm"style="margin-top: 10px;">"This helped me pick up all the girls I met" - Unknown</p>
+                <p class="medium-sm" style="margin-top: 10px;">
+                    "This helped me pick up all the girls I met" - Unknown
+                </p>
                 <p class="medium-sm">"This helped me pick up all the boys I met" - Unknown</p>
-                <p class="medium-sm" style="margin-bottom: 300px;">"I laughed so hard I got another ab. It might be a tumor though." - Unknown</p>
+                <p class="medium-sm" style="margin-bottom: 300px;">
+                    "I laughed so hard I got another ab. It might be a tumor though." - Unknown
+                </p>
 
                 <footer>
                     <div class="container">
-                        <p>Have any suggestions for pick up lines? Send an owl <img style="width: 15px;" src="https://image.flaticon.com/icons/png/512/12/12426.png">!</p>
+                        <p>
+                            Have any suggestions for pick up lines? Send an owl
+                            <img style="width: 15px;" src="https://image.flaticon.com/icons/png/512/12/12426.png" />!
+                        </p>
                         <p>-Brought to you by the quarantine gang</p>
                     </div>
                 </footer>
-
             </div>
 
             <div id="documentation">
-                <p><a class="link" href="http://<%= url %>/lines">https://<%= url %>/lines</a> to get all the pick up lines in our wonderful database</p>
-                <p><a class="link" href="http://<%= url %>/lines/random">https://<%= url %>/lines/random</a> to get a random pick up line to brighten up your day</p>
-                <p><a class="link" href="http://<%= url %>/lines/0">https://<%= url %>/lines/:id</a> to get a get a specific pick up line, replacing ":id" with the id of the pick up line</p>
-                <br>
+                <p>
+                    <a class="link" href="http://<%= url %>/lines">https://<%= url %>/lines</a> to get all the pick up
+                    lines in our wonderful database
+                </p>
+                <p>
+                    <a class="link" href="http://<%= url %>/lines/random">https://<%= url %>/lines/random</a> to get a
+                    random pick up line to brighten up your day
+                </p>
+                <p>
+                    <a class="link" href="http://<%= url %>/lines/0">https://<%= url %>/lines/:id</a> to get a get a
+                    specific pick up line, replacing ":id" with the id of the pick up line
+                </p>
+                <br />
                 <p>Have a great day and we wish you the best!</p>
             </div>
 
             <div id="usage">
-
                 <p class="header ymargins">Use it in an api call</p>
 
                 <p>If you're using it on the client side, the javascript might look something like:</p>
@@ -188,79 +205,86 @@
                     </pre>
                 </div>
 
-                <br><br>
+                <br /><br />
 
                 <p class="header ymargins">Create awesome apps</p>
 
-                <p>Whether it be a pick up helper, a random pickup line generator, or a cure to coronavirus, using this API will change the world for the better.</p>
+                <p>
+                    Whether it be a pick up helper, a random pickup line generator, or a cure to coronavirus, using this
+                    API will change the world for the better.
+                </p>
 
-                <br><br>
+                <br /><br />
 
                 <p class="header ymargins">Change the world</p>
 
                 <p>The world is at your finger tips, use this power to innovate.</p>
 
-                <br><br>
+                <br /><br />
             </div>
 
             <div id="donate">
-                <p class="medium">Donate <a class="link" style="font-size: 50px;" href="https://www.redcross.org/donate/coronavirus-donations.html/">here</a> to keep us going</p>
+                <p class="medium">
+                    Donate
+                    <a
+                        class="link"
+                        style="font-size: 50px;"
+                        href="https://www.redcross.org/donate/coronavirus-donations.html/"
+                        >here</a
+                    >
+                    to keep us going
+                </p>
             </div>
 
             <div id="random">
                 <h1 style="font-weight: normal;" id="pickupline"></h1>
             </div>
-
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
-
-            jQuery.ajaxPrefilter(function(options) {
+            jQuery.ajaxPrefilter(function (options) {
                 if (options.crossDomain && jQuery.support.cors) {
                     options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
                 }
             });
 
-            const pages = ['#documentation', '#home', '#usage', '#donate', '#random']
-            const btnNames = ['#showDocs', '#showHome', '#showUsage', '#showDonate', '#showRandom']
-            var active = '#home'
+            const pages = ['#documentation', '#home', '#usage', '#donate', '#random'];
+            const btnNames = ['#showDocs', '#showHome', '#showUsage', '#showDonate', '#showRandom'];
+            var active = '#home';
 
-            $('#home').children().css("display", "none")
+            $('#home').children().css('display', 'none');
 
-            var delay = 0
-            $('#home').children().each(function () {
-                $(this).delay(delay).fadeIn(800)
-                delay += 500
-            });
+            var delay = 0;
+            $('#home')
+                .children()
+                .each(function () {
+                    $(this).delay(delay).fadeIn(800);
+                    delay += 500;
+                });
 
-            for(let i=0; i<pages.length; i++) {
+            for (let i = 0; i < pages.length; i++) {
                 $(btnNames[i]).click(() => {
-                    if(active != pages[i]) {
+                    if (active != pages[i]) {
                         $(active).fadeOut(200, () => {
-                            active = pages[i]
-                            $(pages[i]).fadeIn(200)
-                        })
-                    }
-
-                    if(btnNames[i] == '#showRandom') {
-                        $("#pickupline").fadeOut();
-                        $.ajax({
-                            url: "https://simp-api.tk/lines/random", 
-                            success: function(result){
-                                $("#pickupline").html(result.line)
-                                $("#pickupline").fadeIn();
-                            }
+                            active = pages[i];
+                            $(pages[i]).fadeIn(200);
                         });
                     }
-                })
+
+                    if (btnNames[i] == '#showRandom') {
+                        $('#pickupline').fadeOut();
+                        $.ajax({
+                            url: 'https://simp-api.tk/lines/random',
+                            success: function (result) {
+                                $('#pickupline').html(result.line);
+                                $('#pickupline').fadeIn();
+                            },
+                        });
+                    }
+                });
             }
-
-            
-
         </script>
-
     </body>
 </html>
-
