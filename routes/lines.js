@@ -105,24 +105,57 @@ const linesArray = [
     'If I asked you out on a date, would your answer be the same as your answer to this one?',
     "One a scale of 1 to 10, you are an 8. And I'm in 2 you.",
     'Excuse me, miss, do you have a name or can I call you mine?',
-
     "I must be a snowflake because I've fallen for you, beautiful.",
-
     "Is your name Google? Because you have everything I've been searching for.",
-
     'You must be a magician, because every time I look at you, everyone else disappears.',
-
     "I'm no mathematician, but I think we're a perfect match.",
-
     "Excuse me, miss, but I couldn't help but notice you're beautiful. Can I take you out sometime?",
-
     'Do you have a map? I keep getting lost in your eyes.',
-
     'I must be lost because heaven is a long way from here, and yet, I found an angel.',
-
     "If I could rearrange the alphabet, I'd put 'U' and 'I' together.",
-
     "Are you a parking ticket? 'Cause you've got 'fine' written all over you.",
+    'Do you have a map? Because I keep getting lost in your eyes.',
+    "If I were a cat I'd spend all 9 lives with you.",
+    'Do you have a sunburn, or are you always this hot?',
+    'You must be a magician, because every time I look at you, everyone else disappears.',
+    'Are you an alien? Because you just abducted my heart.',
+    'Do you believe in love at first sight, or should I walk by again?',
+    "If you were a vegetable, you'd be a cute-cumber.",
+    'Excuse me, but I think you dropped something - my jaw.',
+    "I must be a snowflake, because I've fallen for you.",
+    "Is your name Google? Because you have everything I've been searching for.",
+    'Do you have a Band-Aid? I just scraped my knee falling for you.',
+    'You must be a camera, because every time I look at you, I smile.',
+    "Do you have a magnet in your pocket? Because I'm attracted to you.",
+    "If you were a booger, I'd pick you first.",
+    'Is it hot in here, or is it just you?',
+    "You must be tired, because you've been running through my mind all day.",
+    "I'm not a genie, but I can make your dreams come true.",
+    "Are you a beaver? Because damn, you're one fine-looking dam.",
+    'Do you have a Band-Aid? I just scraped my knee falling for you.',
+    'I must be lost, because heaven is a long way from here.',
+    'Are you a magician? Because whenever I look at you, everyone else disappears.',
+    "I'm no mathematician, but I think we're a perfect match.",
+    "You must be a parking ticket, because you've got FINE written all over you.",
+    "Do you have a twin sister? Because I've been seeing double all night.",
+    'Are you a bank loan? Because you have my interest.',
+    "If you were a vegetable, you'd be a cutecumber.",
+    "I must be a snowflake, because I've fallen for you.",
+    'Do you have a name or can I call you mine?',
+    "If you were a vegetable, you'd be a cute-ot.",
+    'Is it hot in here or is it just you?',
+    "If you were a fruit, you'd be a fineapple.",
+    'I must be lost because heaven is a long way from here.',
+    'I must be a shooting star, because I just fell for you.',
+    'Do you have a map? Because I just got lost in your eyes.',
+    'Do you have a sunburn, or are you always this hot?',
+    'You must be a magician because every time I look at you, everyone else disappears.',
+    'Do you have a Band-Aid? Because I just scraped my knee falling for you.',
+    "I must be a snowflake because I've fallen for you.",
+    'Are you an alien? Because you just abducted my heart.',
+    "Is your name Google? Because you have everything I've been searching for.",
+    'Are you a bank loan? Because you have my interest.',
+    'Do you believe in love at first sight, or should I walk by again?',
 ];
 var lines = [];
 for (let i = 0; i < linesArray.length; i++) {
