@@ -57,6 +57,25 @@ const linesArray = [
     'Screw the alphabet, cause U R A Q T.',
     'If I asked you out on a date, would your answer be the same as your answer to this one?',
     "One a scale of 1 to 10, you are an 8. And I'm in 2 you.",
+   "Excuse me, miss, do you have a name or can I call you mine?",
+
+"I must be a snowflake because I've fallen for you, beautiful.",
+
+"Is your name Google? Because you have everything I've been searching for.",
+
+"You must be a magician, because every time I look at you, everyone else disappears.",
+
+"I'm no mathematician, but I think we're a perfect match.",
+
+"Excuse me, miss, but I couldn't help but notice you're beautiful. Can I take you out sometime?",
+
+"Do you have a map? I keep getting lost in your eyes.",
+
+"I must be lost because heaven is a long way from here, and yet, I found an angel.",
+
+"If I could rearrange the alphabet, I'd put 'U' and 'I' together.",
+
+"Are you a parking ticket? 'Cause you've got 'fine' written all over you.",
 ];
 var lines = [];
 for (let i = 0; i < linesArray.length; i++) {
